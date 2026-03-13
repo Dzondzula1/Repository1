@@ -9,7 +9,7 @@ public class Empleado
      private final LocalDate fechaContrato;
      private int numeroHijos = 0;
      private Double sueldo;
-     private static final String nombreEmpresa = "Empresa";
+     private static final String nombreEmpresa = "Empresa3434";
 
     public Empleado(String DNI, String nombre, LocalDate fechaContrato, int numeroHijos, Double sueldo) {
         this.DNI = DNI;
@@ -57,4 +57,5 @@ public class Empleado
         return this.sueldo;
     }
 }
+
 
